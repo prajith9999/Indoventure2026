@@ -27,7 +27,7 @@ function Contact() {
             </div>
             <div className="contact__item">
               <span className="contact__label">Email</span>
-              <a href="mailto:sales@indoventuretrading.com">sales@indoventuretrading.com</a>
+              <a href="mailto:sales@indoventure-trading.com">sales@indoventure-trading.com</a>
             </div>
           </div>
         </div>
@@ -43,7 +43,7 @@ function Contact() {
           <a href="tel:+97477409009" className="contact__card-cta">
             Call +974 7740 9009
           </a>
-          <a href="mailto:sales@indoventuretrading.com" className="contact__card-cta contact__card-cta--outline">
+          <a href="mailto:sales@indoventure-trading.com" className="contact__card-cta contact__card-cta--outline">
             Send an email
           </a>
         </div>
