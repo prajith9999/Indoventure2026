@@ -1,0 +1,7 @@
+{
+  "installCommand": "cd indoventuredoha && npm install",
+  "buildCommand": "cd indoventuredoha && npm run build",
+  "outputDirectory": "indoventuredoha/dist",
+  "framework": "vite",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
