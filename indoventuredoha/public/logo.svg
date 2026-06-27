@@ -1,0 +1,12 @@
+<svg viewBox="0 0 200 108" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(100 33)">
+    <path d="M0 -27L23.5 -13.5V13.5L0 27L-23.5 13.5V-13.5L0 -27Z" stroke="#1F5098" stroke-width="2.6" stroke-linejoin="round" fill="none"/>
+    <rect x="-15" y="5" width="6.5" height="11" rx="0.5" fill="#6EC1E8"/>
+    <rect x="-5.5" y="-1" width="6.5" height="17" rx="0.5" fill="#6EC1E8"/>
+    <rect x="4" y="-11" width="6.5" height="27" rx="0.5" fill="#6EC1E8"/>
+    <path d="M-21 20C-14 10 -2 0 14 -18" stroke="#1F5098" stroke-width="4.2" stroke-linecap="round" fill="none"/>
+    <path d="M8 -21L17 -17L13 -9" stroke="#1F5098" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  <text x="100" y="81" text-anchor="middle" fill="#FFFFFF" font-family="Ubuntu, sans-serif" font-weight="700" font-size="16.5" letter-spacing="2.8">INDOVENTURE</text>
+  <text x="100" y="99" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-family="Ubuntu, sans-serif" font-weight="400" font-size="11.5">Trading</text>
+</svg>
