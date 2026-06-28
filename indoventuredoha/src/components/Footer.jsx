@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 const SOCIAL_LINKS = [
   {
     name: 'LinkedIn',
@@ -61,10 +63,10 @@ function Footer() {
 
         <div className="footer__links">
           <ul>
-            <li><a href="#who-we-are">Who We Are</a></li>
-            <li><a href="#mission">Our Mission</a></li>
-            <li><a href="#products">Products</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><Link to="/who-we-are">Who We Are</Link></li>
+            <li><Link to="/#mission">Our Mission</Link></li>
+            <li><Link to="/#products">Products</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
           </ul>
         </div>
       </div>

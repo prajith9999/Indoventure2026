@@ -1,12 +1,9 @@
+import { Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
-import Hero from './components/Hero'
-import WhoWeAre from './components/WhoWeAre'
-import Mission from './components/Mission'
-import ProductPortfolio from './components/ProductPortfolio'
-import ProductShowcase from './components/ProductShowcase'
-import ProductCategories from './components/ProductCategories'
-import Contact from './components/Contact'
 import Footer from './components/Footer'
+import HomePage from './pages/HomePage'
+import WhoWeArePage from './pages/WhoWeArePage'
+import ContactPage from './pages/ContactPage'
 import './App.css'
 
 function App() {
@@ -14,13 +11,11 @@ function App() {
     <div className="app">
       <Header />
       <main>
-        <Hero />
-        <WhoWeAre />
-        <Mission />
-        <ProductShowcase />
-        <ProductPortfolio />
-        <ProductCategories />
-        <Contact />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/who-we-are" element={<WhoWeArePage />} />
+          <Route path="/contact" element={<ContactPage />} />
+        </Routes>
       </main>
       <Footer />
     </div>

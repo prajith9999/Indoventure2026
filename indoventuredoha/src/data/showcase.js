@@ -3,7 +3,7 @@ export const SHOWCASE_ITEMS = [
     id: 'safety',
     theme: '01',
     image: '/images/safety.png',
-    category: 'Category 01 — Safety Products',
+    category: 'Safety Products',
     title: 'Certified protection for every workplace',
     description:
       'From personal protective equipment to fire safety and traffic control — INDOVENTURE delivers certified safety solutions that keep your teams protected and compliant on every job site across Qatar.',
@@ -15,7 +15,7 @@ export const SHOWCASE_ITEMS = [
     id: 'electrical-wiring',
     theme: '02',
     image: '/images/electrical-wiring.jpeg',
-    category: 'Category 02 — Electrical Products',
+    category: 'Electrical Products',
     title: 'Precision wiring for industrial excellence',
     description:
       'Power cables, circuit breakers, switches, and lighting solutions across all voltage ratings — sourced to international standards for residential, commercial, and heavy industrial applications.',
@@ -27,7 +27,7 @@ export const SHOWCASE_ITEMS = [
     id: 'electrical-clamp',
     theme: '02',
     image: '/images/electrical-testing.jpeg',
-    category: 'Category 02 — Electrical Products',
+    category: 'Electrical Products',
     title: 'Professional testing & measurement tools',
     description:
       'TRMS clamp meters, multimeters, and voltage testers for accurate diagnostics — trusted by electricians and maintenance teams across industrial and commercial sites.',
@@ -39,7 +39,7 @@ export const SHOWCASE_ITEMS = [
     id: 'electrical-systems',
     theme: '02',
     image: '/images/electrical-infrastructure.jpeg',
-    category: 'Category 02 — Electrical Products',
+    category: 'Electrical Products',
     title: 'Advanced electrical infrastructure',
     description:
       'Industrial-grade switchgear, MCB & MCCB protection, LED and solar lighting, plus power tools and inverters — everything your electrical projects demand.',
@@ -51,7 +51,7 @@ export const SHOWCASE_ITEMS = [
     id: 'civil',
     theme: '03',
     image: '/images/civil-consumables.png',
-    category: 'Category 03 — Civil Consumables',
+    category: 'Civil Consumables',
     title: 'Adhesives, sealants & site essentials',
     description:
       'Epoxy, silicone, acrylic sealants, and waterproofing compounds — plus construction tapes and site consumables that keep projects moving on schedule.',
@@ -63,7 +63,7 @@ export const SHOWCASE_ITEMS = [
     id: 'construction',
     theme: '03',
     image: '/images/construction.jpeg',
-    category: 'Category 03 — Civil Consumables',
+    category: 'Civil Consumables',
     title: 'Construction materials from foundation to finish',
     description:
       'Cement, mortar, bricks, blocks, ready-mix concrete, and formwork materials — complete civil supply for residential, commercial, and infrastructure projects in Qatar.',
@@ -75,7 +75,7 @@ export const SHOWCASE_ITEMS = [
     id: 'hand-tools',
     theme: '04',
     image: '/images/hand-tools.png',
-    category: 'Category 04 — Hand Tools',
+    category: 'Hand Tools',
     title: 'Engineered tools built to perform',
     description:
       'Cutting, measuring, and insulated electrical tools designed for durability across mechanical, electrical, and construction environments — precision you can depend on.',
@@ -87,7 +87,7 @@ export const SHOWCASE_ITEMS = [
     id: 'mechanical',
     theme: '04',
     image: '/images/mechanical.png',
-    category: 'Category 04 — Hand Tools',
+    category: 'Hand Tools',
     title: 'Mechanical tools for heavy-duty operations',
     description:
       'Hacksaws, bolt cutters, pipe cutters, spirit levels, and vernier calipers — precision-engineered for manufacturing, oil & gas, and industrial maintenance teams.',
@@ -99,7 +99,7 @@ export const SHOWCASE_ITEMS = [
     id: 'terminals',
     theme: '05',
     image: '/images/pipe-fittings.png',
-    category: 'Category 05 — Pipe & Tube Fittings',
+    category: 'Pipe & Tube Fittings',
     title: 'Connectors and fittings in every material',
     description:
       'Elbows, tees, reducers, flanges, and compression fittings in carbon steel, stainless steel, brass, copper, PVC, and galvanized iron.',

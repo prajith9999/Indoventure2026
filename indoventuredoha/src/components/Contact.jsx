@@ -33,13 +33,17 @@ function Contact() {
         </div>
 
         <div className="contact__card">
-          <p className="contact__card-thanks">Thank you</p>
-          <h3 className="contact__card-title">
-            Get in touch with us
-          </h3>
-          <p className="contact__card-sub">
-            Indoventure Trading — Doha, Qatar
-          </p>
+          <div className="contact__profile">
+            <img
+              src="/images/sooraj-sunil.png"
+              alt="Sooraj Sunil"
+              className="contact__profile-photo"
+              width={160}
+              height={160}
+            />
+            <p className="contact__profile-name">Sooraj Sunil</p>
+            <p className="contact__profile-role">Indoventure Trading — Doha, Qatar</p>
+          </div>
           <a href="tel:+97477409009" className="contact__card-cta">
             Call +974 7740 9009
           </a>
