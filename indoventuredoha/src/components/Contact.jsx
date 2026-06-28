@@ -34,13 +34,6 @@ function Contact() {
 
         <div className="contact__card">
           <div className="contact__profile">
-            <img
-              src="/images/sooraj-sunil.png"
-              alt="Sooraj Sunil"
-              className="contact__profile-photo"
-              width={160}
-              height={160}
-            />
             <p className="contact__profile-name">Sooraj Sunil</p>
             <p className="contact__profile-role">Indoventure Trading — Doha, Qatar</p>
           </div>
