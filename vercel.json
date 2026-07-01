@@ -3,5 +3,25 @@
   "buildCommand": "cd indoventuredoha && npm run build",
   "outputDirectory": "indoventuredoha/dist",
   "framework": "vite",
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.indoventure-trading.com" }],
+      "destination": "https://www.indoventuretrading.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "indoventure-trading.com" }],
+      "destination": "https://www.indoventuretrading.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "indoventuretrading.com" }],
+      "destination": "https://www.indoventuretrading.com/:path*",
+      "permanent": true
+    }
+  ]
 }
