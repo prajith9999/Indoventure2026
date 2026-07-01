@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { FOOTER_INFO_LINKS } from '../data/infoPages'
 
 const SOCIAL_LINKS = [
   {
@@ -39,6 +40,13 @@ const SOCIAL_LINKS = [
   },
 ]
 
+const COMPANY_LINKS = [
+  { label: 'Who We Are', to: '/who-we-are' },
+  { label: 'Our Mission', to: '/our-mission' },
+  { label: 'Products', to: '/products' },
+  { label: 'Contact', to: '/contact' },
+]
+
 function Footer() {
   return (
     <footer className="footer">
@@ -62,11 +70,24 @@ function Footer() {
         </div>
 
         <div className="footer__links">
+          <p className="footer__links-title">Company</p>
           <ul>
-            <li><Link to="/who-we-are">Who We Are</Link></li>
-            <li><Link to="/#mission">Our Mission</Link></li>
-            <li><Link to="/#products">Products</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
+            {COMPANY_LINKS.map((link) => (
+              <li key={link.to}>
+                <Link to={link.to}>{link.label}</Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div className="footer__links">
+          <p className="footer__links-title">Information</p>
+          <ul>
+            {FOOTER_INFO_LINKS.map((link) => (
+              <li key={link.to}>
+                <Link to={link.to}>{link.label}</Link>
+              </li>
+            ))}
           </ul>
         </div>
       </div>

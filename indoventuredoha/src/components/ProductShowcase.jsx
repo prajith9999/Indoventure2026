@@ -1,5 +1,7 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { SHOWCASE_ITEMS } from '../data/showcase'
+import { SHOWCASE_BRAND_BLOCKS } from '../data/showcaseBrand'
 import { CATEGORY_THEMES } from '../data/categoryThemes'
 import CategoryIcon from './CategoryIcon'
 
@@ -9,7 +11,30 @@ function ProductShowcase() {
       {SHOWCASE_ITEMS.map((item) => (
         <ShowcaseRow key={item.id} item={item} />
       ))}
+      <ShowcaseBrandPlain />
     </section>
+  )
+}
+
+function ShowcaseBrandPlain() {
+  return (
+    <div className="showcase-brand">
+      <div className="container showcase-brand__inner">
+        {SHOWCASE_BRAND_BLOCKS.map((block) => (
+          <article key={block.id} className="showcase-brand__block">
+            <p className="showcase-brand__label">{block.label}</p>
+            <h3 className="showcase-brand__title">{block.title}</h3>
+            <p className="showcase-brand__text">{block.description}</p>
+            <Link to={block.link} className="showcase-brand__link">
+              {block.linkLabel}
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                <path d="M3 7h8M8 4l3 3-3 3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+              </svg>
+            </Link>
+          </article>
+        ))}
+      </div>
+    </div>
   )
 }
 
