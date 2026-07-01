@@ -1,7 +1,6 @@
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import Hero from '../components/Hero'
-import Mission from '../components/Mission'
 import ProductShowcase from '../components/ProductShowcase'
 import ProductPortfolio from '../components/ProductPortfolio'
 import ProductCategories from '../components/ProductCategories'
@@ -21,7 +20,6 @@ function HomePage() {
   return (
     <>
       <Hero />
-      <Mission />
       <ProductShowcase />
       <ProductPortfolio />
       <ProductCategories />

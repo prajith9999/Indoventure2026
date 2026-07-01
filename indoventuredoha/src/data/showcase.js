@@ -26,7 +26,7 @@ export const SHOWCASE_ITEMS = [
   {
     id: 'electrical-clamp',
     theme: '02',
-    image: '/images/electrical-testing.jpeg',
+    image: '/AdobeStock_234344817.jpeg',
     category: 'Electrical Products',
     title: 'Professional testing & measurement tools',
     description:
@@ -38,7 +38,7 @@ export const SHOWCASE_ITEMS = [
   {
     id: 'electrical-systems',
     theme: '02',
-    image: '/images/electrical-infrastructure.jpeg',
+    image: '/download%20(21).jpeg',
     category: 'Electrical Products',
     title: 'Advanced electrical infrastructure',
     description:
@@ -105,30 +105,6 @@ export const SHOWCASE_ITEMS = [
       'Elbows, tees, reducers, flanges, and compression fittings in carbon steel, stainless steel, brass, copper, PVC, and galvanized iron.',
     link: '#category-05',
     linkLabel: 'View pipe fittings',
-    reverse: false,
-  },
-  {
-    id: 'industrial',
-    theme: 'brand',
-    image: '/images/industrial.png',
-    category: 'Indoventure Trading — Qatar',
-    title: 'Industrial supply across every sector',
-    description:
-      'Serving oil & gas, manufacturing, construction, and hospitality — INDOVENTURE sources globally and delivers locally with reliability, integrity, and on-time service.',
-    link: '#who-we-are',
-    linkLabel: 'Learn about us',
-    reverse: true,
-  },
-  {
-    id: 'partner',
-    theme: 'brand',
-    image: '/images/partner.jpeg',
-    category: 'Indoventure Trading — Qatar',
-    title: 'Your trusted supply partner in Doha',
-    description:
-      'From Souq Umm Besher to projects across Qatar — we build lasting partnerships through value, trust, and timely delivery of high-quality industrial products.',
-    link: '#contact',
-    linkLabel: 'Partner with us',
     reverse: false,
   },
 ]

@@ -32,17 +32,20 @@ function Contact() {
           </div>
         </div>
 
-        <div className="contact__card">
-          <div className="contact__profile">
-            <p className="contact__profile-name">Sooraj Sunil</p>
-            <p className="contact__profile-role">Indoventure Trading — Doha, Qatar</p>
+        <div className="contact__aside" aria-label="Contact representative">
+          <p className="contact__aside-label">Direct contact</p>
+          <p className="contact__profile-name">Sooraj Sunil</p>
+          <p className="contact__profile-role">Sales — Indoventure Trading</p>
+          <p className="contact__profile-location">Doha, Qatar</p>
+
+          <div className="contact__actions">
+            <a href="tel:+97477409009" className="contact__action">
+              Call +974 7740 9009
+            </a>
+            <a href="mailto:sales@indoventure-trading.com" className="contact__action">
+              sales@indoventure-trading.com
+            </a>
           </div>
-          <a href="tel:+97477409009" className="contact__card-cta">
-            Call +974 7740 9009
-          </a>
-          <a href="mailto:sales@indoventure-trading.com" className="contact__card-cta contact__card-cta--outline">
-            Send an email
-          </a>
         </div>
       </div>
     </section>

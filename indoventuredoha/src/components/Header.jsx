@@ -4,8 +4,8 @@ import Logo from './Logo'
 
 const NAV_ITEMS = [
   { label: 'Who We Are', to: '/who-we-are' },
-  { label: 'Our Mission', to: '/#mission' },
-  { label: 'Products', to: '/#products' },
+  { label: 'Our Mission', to: '/our-mission' },
+  { label: 'Products', to: '/products' },
   { label: 'Contact', to: '/contact' },
 ]
 
@@ -61,7 +61,7 @@ function Header() {
               <li key={item.to}>
                 <Link
                   to={item.to}
-                  className={location.pathname === item.to ? 'header__nav-link--active' : undefined}
+                  className={location.pathname === item.to.split('#')[0] ? 'header__nav-link--active' : undefined}
                   onClick={() => setMenuOpen(false)}
                 >
                   {item.label}
