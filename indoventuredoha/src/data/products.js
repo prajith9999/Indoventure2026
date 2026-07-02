@@ -65,8 +65,12 @@ export const PORTFOLIO_CATEGORIES = [
         items: 'Masking tape, duct tape, PVC tape, warning tape, double-sided tape, and specialty industrial adhesive tapes',
       },
       {
-        name: 'Custom Made Services',
-        items: 'Wood and steel',
+        name: 'Custom Wood Works',
+        items: 'Custom cabinets, wooden shelves, counters, display units, doors & partitions, office furniture, shop furniture',
+      },
+      {
+        name: 'Custom Steel Works',
+        items: 'Steel frames, metal racks, gates & railings, steel fabrication',
       },
     ],
   },
