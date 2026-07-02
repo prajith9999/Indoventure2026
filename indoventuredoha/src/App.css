@@ -1176,6 +1176,83 @@ html {
   padding-top: 0.75rem;
 }
 
+/* ─── Product brands ─────────────────────────────────────── */
+
+.product-brands {
+  --text-primary: #1a1a1a;
+  --text-secondary: rgba(0, 0, 0, 0.65);
+  background: var(--gray-100);
+  padding: 4rem 0 5rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.product-brands__header {
+  max-width: 640px;
+  margin-bottom: 2.5rem;
+}
+
+.product-brands__label {
+  font-size: 0.6875rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--cap-blue);
+  margin: 0 0 0.75rem;
+}
+
+.product-brands__title {
+  font-family: var(--font-headline);
+  font-weight: 700;
+  font-size: clamp(1.375rem, 2.5vw, 1.875rem);
+  line-height: 1.25;
+  color: var(--gray-800);
+  margin: 0 0 0.75rem;
+  text-transform: capitalize;
+}
+
+.product-brands__intro {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.65;
+  color: var(--gray-600);
+  margin: 0;
+}
+
+.product-brands__logos {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 0 0;
+}
+
+.product-brands__logo-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 96px;
+  padding: 1.25rem 1rem;
+  background: var(--white);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 2px;
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.product-brands__logo-item:hover {
+  border-color: rgba(0, 112, 184, 0.15);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.product-brands__logo {
+  display: block;
+  width: 100%;
+  max-width: 168px;
+  height: 48px;
+  object-fit: contain;
+  object-position: center;
+}
+
 /* ─── Product Showcase (editorial grid) ──────────────────── */
 
 .showcase {
@@ -1837,6 +1914,11 @@ html {
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   }
 
+  .product-brands__logos {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+  }
+
   .contact__inner {
     grid-template-columns: 1fr;
   }
@@ -2014,6 +2096,25 @@ html {
   .portfolio__grid {
     grid-template-columns: 1fr;
     gap: 1.25rem;
+  }
+
+  .product-brands {
+    padding: 3rem 0 3.5rem;
+  }
+
+  .product-brands__logos {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .product-brands__logo-item {
+    min-height: 80px;
+    padding: 1rem 0.75rem;
+  }
+
+  .product-brands__logo {
+    max-width: 140px;
+    height: 40px;
   }
 
   .portfolio-card__body {

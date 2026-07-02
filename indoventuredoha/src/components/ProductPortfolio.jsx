@@ -1,9 +1,11 @@
 import { PORTFOLIO_CATEGORIES } from '../data/products'
 import { CATEGORY_THEMES } from '../data/categoryThemes'
 import CategoryIcon from './CategoryIcon'
+import ProductBrands from './ProductBrands'
 
 function ProductPortfolio() {
   return (
+    <>
     <section className="portfolio" id="products">
       <div className="container">
         <h2 className="section-title">Our product portfolio</h2>
@@ -41,6 +43,8 @@ function ProductPortfolio() {
         </div>
       </div>
     </section>
+    <ProductBrands />
+    </>
   )
 }
 
