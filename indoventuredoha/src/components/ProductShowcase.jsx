@@ -50,9 +50,11 @@ function ShowcaseRow({ item }) {
         className="showcase__content"
         style={{ background: theme.contentBg }}
       >
-        <p className="showcase__category" style={{ color: theme.accent }}>
-          {item.category}
-        </p>
+        {item.category ? (
+          <p className="showcase__category" style={{ color: theme.accent }}>
+            {item.category}
+          </p>
+        ) : null}
         <h3 className="showcase__title">{item.title}</h3>
         <p className="showcase__description">{item.description}</p>
         <a
@@ -83,14 +85,16 @@ function ShowcaseRow({ item }) {
             <CategoryIcon name={theme.icon} className="category-icon--showcase" />
           </div>
         )}
-        <div className="showcase__overlay">
-          <span
-            className="showcase__overlay-label"
-            style={{ borderColor: theme.accent, color: theme.accent }}
-          >
-            {item.category}
-          </span>
-        </div>
+        {item.category ? (
+          <div className="showcase__overlay">
+            <span
+              className="showcase__overlay-label"
+              style={{ borderColor: theme.accent, color: theme.accent }}
+            >
+              {item.category}
+            </span>
+          </div>
+        ) : null}
       </div>
     </article>
   )

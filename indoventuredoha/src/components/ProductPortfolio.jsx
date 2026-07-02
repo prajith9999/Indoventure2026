@@ -2,6 +2,7 @@ import { PORTFOLIO_CATEGORIES } from '../data/products'
 import { CATEGORY_THEMES } from '../data/categoryThemes'
 import CategoryIcon from './CategoryIcon'
 import ProductBrands from './ProductBrands'
+import TrustedClients from './TrustedClients'
 
 function ProductPortfolio() {
   return (
@@ -44,6 +45,7 @@ function ProductPortfolio() {
       </div>
     </section>
     <ProductBrands />
+    <TrustedClients />
     </>
   )
 }
