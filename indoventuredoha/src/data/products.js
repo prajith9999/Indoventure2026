@@ -60,6 +60,14 @@ export const PORTFOLIO_CATEGORIES = [
         name: 'Site Consumables',
         items: 'Construction tapes, warning signs, scaffolding accessories, tarpaulins, formwork materials',
       },
+      {
+        name: 'Chemical & Tapes',
+        items: 'Masking tape, duct tape, PVC tape, warning tape, double-sided tape, and specialty industrial adhesive tapes',
+      },
+      {
+        name: 'Custom Made Services',
+        items: 'Wood and steel',
+      },
     ],
   },
   {

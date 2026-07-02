@@ -50,7 +50,7 @@ export const SHOWCASE_ITEMS = [
   {
     id: 'civil',
     theme: '03',
-    image: '/images/civil-consumables.png',
+    image: '/civil%20image.jpg',
     category: 'Civil Consumables',
     title: 'Adhesives, sealants & site essentials',
     description:
@@ -58,6 +58,18 @@ export const SHOWCASE_ITEMS = [
     link: '#category-03',
     linkLabel: 'See civil consumables',
     reverse: false,
+  },
+  {
+    id: 'chemical-tape',
+    theme: '03',
+    image: '/chemical%20and%20tape.png',
+    category: 'Chemical & Tapes',
+    title: 'Chemical & construction tapes',
+    description:
+      'Industrial masking tapes, duct tapes, PVC tapes, warning tapes, and specialty adhesive tapes for sealing, bundling, and surface protection on every construction and maintenance site.',
+    link: '#category-03',
+    linkLabel: 'View chemical & tapes',
+    reverse: true,
   },
   {
     id: 'construction',
@@ -69,7 +81,7 @@ export const SHOWCASE_ITEMS = [
       'Cement, mortar, bricks, blocks, ready-mix concrete, and formwork materials — complete civil supply for residential, commercial, and infrastructure projects in Qatar.',
     link: '#category-03',
     linkLabel: 'Explore construction range',
-    reverse: true,
+    reverse: false,
   },
   {
     id: 'hand-tools',
