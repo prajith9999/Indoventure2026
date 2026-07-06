@@ -54,4 +54,21 @@ export const TRUSTED_CLIENTS = [
       { text: 'DOHA', type: 'secondary' },
     ],
   },
+  {
+    name: 'Técnicas Reunidas',
+    brandClass: 'client-brand--tecnicas-reunidas',
+    tall: true,
+    lines: [
+      { text: 'TECNICAS', type: 'primary' },
+      { text: 'REUNIDAS', type: 'primary-accent' },
+    ],
+  },
+  {
+    name: 'Samsung C&T',
+    brandClass: 'client-brand--samsung-cnt',
+    lines: [
+      { text: 'SAMSUNG', type: 'primary' },
+      { text: 'C&T', type: 'secondary' },
+    ],
+  },
 ]

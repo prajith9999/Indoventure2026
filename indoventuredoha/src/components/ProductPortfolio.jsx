@@ -44,8 +44,8 @@ function ProductPortfolio() {
         </div>
       </div>
     </section>
-    <ProductBrands />
     <TrustedClients />
+    <ProductBrands />
     </>
   )
 }

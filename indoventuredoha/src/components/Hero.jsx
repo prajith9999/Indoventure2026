@@ -5,14 +5,14 @@ function Hero() {
     <>
       <section className="hero" aria-label="Welcome">
         <div className="hero__bg" aria-hidden="true">
-          <div className="hero__geometry">
-            <div className="hero__frame hero__frame--1" />
-            <div className="hero__frame hero__frame--2" />
-            <div className="hero__frame hero__frame--3" />
-            <div className="hero__triangle hero__triangle--1" />
-            <div className="hero__triangle hero__triangle--2" />
-            <div className="hero__cylinder" />
-          </div>
+          <img
+            src="/color%20building.png"
+            alt=""
+            className="hero__photo"
+            loading="eager"
+            fetchPriority="high"
+          />
+          <div className="hero__bg-overlay" />
         </div>
 
         <div className="hero__content">

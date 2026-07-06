@@ -735,77 +735,23 @@ html {
   inset: 0;
 }
 
-.hero__geometry {
+.hero__photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 35%;
+}
+
+.hero__bg-overlay {
   position: absolute;
   inset: 0;
-  perspective: 800px;
-}
-
-.hero__frame {
-  position: absolute;
-  border: 2px solid rgba(180, 180, 180, 0.35);
-  background: transparent;
-}
-
-.hero__frame--1 {
-  width: 280px;
-  height: 380px;
-  top: 15%;
-  right: 25%;
-  transform: rotateY(-15deg) rotateX(5deg);
-}
-
-.hero__frame--2 {
-  width: 200px;
-  height: 260px;
-  top: 30%;
-  right: 12%;
-  transform: rotateY(-25deg);
-}
-
-.hero__frame--3 {
-  width: 160px;
-  height: 220px;
-  bottom: 20%;
-  right: 35%;
-  transform: rotateY(10deg);
-}
-
-.hero__triangle {
-  position: absolute;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  opacity: 0.25;
-}
-
-.hero__triangle--1 {
-  top: 20%;
-  left: 30%;
-  border-width: 0 80px 140px 80px;
-  border-color: transparent transparent rgba(160, 160, 160, 0.4) transparent;
-}
-
-.hero__triangle--2 {
-  bottom: 25%;
-  left: 45%;
-  border-width: 100px 60px 0 60px;
-  border-color: rgba(140, 140, 140, 0.3) transparent transparent transparent;
-}
-
-.hero__cylinder {
-  position: absolute;
-  width: 48px;
-  height: 200px;
-  top: 25%;
-  right: 28%;
-  background: linear-gradient(180deg, var(--cyan) 0%, var(--light-blue) 50%, #0070b8 100%);
-  border-radius: 24px;
-  box-shadow:
-    0 0 40px rgba(0, 212, 255, 0.5),
-    0 0 80px rgba(0, 212, 255, 0.2);
-  transform: rotateY(-20deg);
-  z-index: 2;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 20, 45, 0.88) 0%,
+    rgba(0, 30, 60, 0.72) 38%,
+    rgba(0, 40, 80, 0.35) 68%,
+    rgba(0, 20, 40, 0.2) 100%
+  );
 }
 
 .hero__content {
@@ -1181,7 +1127,7 @@ html {
 .product-brands {
   --text-primary: #1a1a1a;
   --text-secondary: rgba(0, 0, 0, 0.65);
-  background: var(--gray-100);
+  background: var(--white);
   padding: 4rem 0 5rem;
   border-top: 1px solid rgba(0, 0, 0, 0.06);
 }
@@ -1258,7 +1204,7 @@ html {
 .trusted-clients {
   --text-primary: #1a1a1a;
   --text-secondary: rgba(0, 0, 0, 0.65);
-  background: var(--white);
+  background: var(--gray-100);
   padding: 4rem 0 5rem;
   border-top: 1px solid rgba(0, 0, 0, 0.06);
 }
@@ -1452,6 +1398,40 @@ html {
   font-weight: 300;
   letter-spacing: 0.42em;
   color: #e30613;
+}
+
+/* Técnicas Reunidas — light blue #7E96B8 + navy #1E3460 */
+.client-brand--tecnicas-reunidas .client-brand__line--primary {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: #7e96b8;
+}
+
+.client-brand--tecnicas-reunidas .client-brand__line--primary-accent {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: #1e3460;
+}
+
+/* Samsung C&T — Samsung Blue #1428A0 */
+.client-brand--samsung-cnt .client-brand__line--primary {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #1428a0;
+}
+
+.client-brand--samsung-cnt .client-brand__line--secondary {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  color: #1428a0;
 }
 
 /* ─── Product Showcase (editorial grid) ──────────────────── */
@@ -1769,6 +1749,127 @@ html {
   background: var(--section-surface);
   border: 1px solid var(--section-border);
   border-left: 3px solid var(--cap-blue);
+}
+
+/* ─── FAQ ────────────────────────────────────────────────── */
+
+.faq {
+  padding: 4rem 0 5rem;
+  background: var(--gray-100);
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.faq__header {
+  max-width: 640px;
+  margin: 0 auto 2.5rem;
+  text-align: center;
+}
+
+.faq__label {
+  font-size: 0.6875rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--cap-blue);
+  margin: 0 0 0.75rem;
+}
+
+.faq__title {
+  font-family: var(--font-headline);
+  font-weight: 700;
+  font-size: clamp(1.375rem, 2.5vw, 1.875rem);
+  line-height: 1.25;
+  color: var(--gray-800);
+  margin: 0 0 0.75rem;
+}
+
+.faq__intro {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.65;
+  color: var(--gray-600);
+  margin: 0 auto;
+}
+
+.faq__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.faq__item {
+  background: var(--white);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 2px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.faq__item[open] {
+  border-color: rgba(0, 112, 184, 0.15);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+}
+
+.faq__question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.125rem 1.25rem;
+  font-family: var(--font-headline);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--gray-800);
+  cursor: pointer;
+  list-style: none;
+}
+
+.faq__question::-webkit-details-marker {
+  display: none;
+}
+
+.faq__question::after {
+  content: '+';
+  flex-shrink: 0;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--cap-blue);
+  line-height: 1;
+}
+
+.faq__item[open] .faq__question::after {
+  content: '−';
+}
+
+.faq__answer {
+  margin: 0;
+  padding: 0 1.25rem 1.25rem;
+  font-size: 0.9375rem;
+  font-weight: 300;
+  line-height: 1.7;
+  color: var(--gray-600);
+}
+
+.faq__cta {
+  max-width: 720px;
+  margin: 2rem auto 0;
+  text-align: center;
+  font-size: 0.9375rem;
+  color: var(--gray-600);
+}
+
+.faq__cta a {
+  color: var(--cap-blue);
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.faq__cta a:hover {
+  opacity: 0.85;
 }
 
 /* ─── Contact ────────────────────────────────────────────── */
@@ -2181,17 +2282,8 @@ html {
     padding: 2rem 1.5rem;
   }
 
-  .hero__frame--1,
-  .hero__frame--2,
-  .hero__frame--3 {
-    opacity: 0.5;
-    transform: scale(0.75);
-  }
-
-  .hero__cylinder {
-    width: 36px;
-    height: 140px;
-    right: 18%;
+  .hero__photo {
+    object-position: 65% center;
   }
 
   .hero-highlights {
@@ -2236,6 +2328,19 @@ html {
   .contact {
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
+  }
+
+  .faq {
+    padding: 3rem 0 3.5rem;
+  }
+
+  .faq__question {
+    font-size: 0.9375rem;
+    padding: 1rem;
+  }
+
+  .faq__answer {
+    padding: 0 1rem 1rem;
   }
 
   .categories {

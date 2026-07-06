@@ -204,4 +204,5 @@ export const FOOTER_INFO_LINKS = [
   { label: 'Returns Policy', to: INFO_PAGES['returns-policy'].path },
   { label: 'Warranty', to: INFO_PAGES.warranty.path },
   { label: 'Brochure', to: INFO_PAGES.brochure.path },
+  { label: 'FAQ', to: { pathname: '/', hash: 'faq' } },
 ]

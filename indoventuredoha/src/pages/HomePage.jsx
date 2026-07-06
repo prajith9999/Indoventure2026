@@ -4,6 +4,7 @@ import Hero from '../components/Hero'
 import ProductShowcase from '../components/ProductShowcase'
 import ProductPortfolio from '../components/ProductPortfolio'
 import ProductCategories from '../components/ProductCategories'
+import Faq from '../components/Faq'
 
 function HomePage() {
   const location = useLocation()
@@ -23,6 +24,7 @@ function HomePage() {
       <ProductShowcase />
       <ProductPortfolio />
       <ProductCategories />
+      <Faq />
     </>
   )
 }
