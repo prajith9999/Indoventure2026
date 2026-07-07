@@ -2,11 +2,13 @@ export const TRUSTED_CLIENTS = [
   {
     name: 'Shell',
     brandClass: 'client-brand--shell',
+    logo: '/shell.svg',
     lines: [{ text: 'Shell', type: 'primary' }],
   },
   {
     name: 'Trags Trading and Agency Services Limited Company W.L.L.',
     brandClass: 'client-brand--trags',
+    logo: '/brands/Trags-Header-Logo-3.png',
     tall: true,
     lines: [
       { text: 'TRAGS TRADING', type: 'primary' },
@@ -17,11 +19,13 @@ export const TRUSTED_CLIENTS = [
   {
     name: 'Mitsubishi',
     brandClass: 'client-brand--mitsubishi',
+    logo: '/brands/mitsubishi-electric.svg',
     lines: [{ text: 'MITSUBISHI', type: 'primary' }],
   },
   {
     name: 'MEDGULF',
     brandClass: 'client-brand--medgulf',
+    logo: '/brands/md-logomedgulf.jpg',
     tall: true,
     lines: [
       { text: 'MEDGULF', type: 'primary' },
@@ -31,6 +35,7 @@ export const TRUSTED_CLIENTS = [
   {
     name: 'Grand Hyatt',
     brandClass: 'client-brand--grand-hyatt',
+    logo: '/hayatt.svg',
     lines: [
       { text: 'HYATT', type: 'eyebrow' },
       { text: 'GRAND HYATT', type: 'primary' },
@@ -49,6 +54,7 @@ export const TRUSTED_CLIENTS = [
   {
     name: 'Mondrian Doha',
     brandClass: 'client-brand--mondrian',
+    logo: '/brands/mondrianhotels.svg',
     lines: [
       { text: 'MONDRIAN', type: 'primary' },
       { text: 'DOHA', type: 'secondary' },
@@ -57,6 +63,7 @@ export const TRUSTED_CLIENTS = [
   {
     name: 'Técnicas Reunidas',
     brandClass: 'client-brand--tecnicas-reunidas',
+    logo: '/brands/tecnicas-reunidas.png',
     tall: true,
     lines: [
       { text: 'TECNICAS', type: 'primary' },
@@ -66,6 +73,7 @@ export const TRUSTED_CLIENTS = [
   {
     name: 'Samsung C&T',
     brandClass: 'client-brand--samsung-cnt',
+    logo: '/brands/samsung-ct.svg',
     lines: [
       { text: 'SAMSUNG', type: 'primary' },
       { text: 'C&T', type: 'secondary' },

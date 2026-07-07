@@ -48,6 +48,10 @@ body {
   min-height: 100vh;
 }
 
+main {
+  width: 100%;
+}
+
 a {
   color: inherit;
   text-decoration: none;

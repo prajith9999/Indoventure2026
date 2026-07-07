@@ -2,7 +2,7 @@ import { TRUSTED_CLIENTS } from '../data/clients'
 
 function TrustedClients() {
   return (
-    <section className="trusted-clients" aria-label="Trusted clients and partners">
+    <section className="trusted-clients" id="clients" aria-label="Trusted clients and partners">
       <div className="container">
         <div className="trusted-clients__header">
           <p className="trusted-clients__label">Our clients</p>
@@ -21,7 +21,16 @@ function TrustedClients() {
               className={`trusted-clients__logo-item${client.tall ? ' trusted-clients__logo-item--tall' : ''}`}
             >
               <div className={`client-brand ${client.brandClass}`} aria-label={client.name}>
-                {client.lines.map((line) => (
+                {client.logo ? (
+                  <img
+                    src={client.logo}
+                    alt=""
+                    className="client-brand__logo"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                ) : null}
+                {client.lines?.map((line) => (
                   <span
                     key={line.text}
                     className={`client-brand__line client-brand__line--${line.type}`}

@@ -69,27 +69,29 @@ function Footer() {
           </div>
         </div>
 
-        <div className="footer__links">
-          <p className="footer__links-title">Company</p>
-          <ul>
-            {COMPANY_LINKS.map((link) => (
-              <li key={link.to}>
-                <Link to={link.to}>{link.label}</Link>
-              </li>
-            ))}
-          </ul>
-        </div>
+        <nav className="footer__nav" aria-label="Footer navigation">
+          <div className="footer__links">
+            <p className="footer__links-title">Company</p>
+            <ul>
+              {COMPANY_LINKS.map((link) => (
+                <li key={link.to}>
+                  <Link to={link.to}>{link.label}</Link>
+                </li>
+              ))}
+            </ul>
+          </div>
 
-        <div className="footer__links">
-          <p className="footer__links-title">Information</p>
-          <ul>
-            {FOOTER_INFO_LINKS.map((link) => (
-              <li key={link.to}>
-                <Link to={link.to}>{link.label}</Link>
-              </li>
-            ))}
-          </ul>
-        </div>
+          <div className="footer__links">
+            <p className="footer__links-title">Information</p>
+            <ul>
+              {FOOTER_INFO_LINKS.map((link) => (
+                <li key={link.to}>
+                  <Link to={link.to}>{link.label}</Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </nav>
       </div>
 
       <div className="footer__bottom">
