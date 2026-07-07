@@ -1,11 +1,5 @@
 export const TRUSTED_CLIENTS = [
   {
-    name: 'Shell',
-    brandClass: 'client-brand--shell',
-    logo: '/shell.svg',
-    lines: [{ text: 'Shell', type: 'primary' }],
-  },
-  {
     name: 'Trags Trading and Agency Services Limited Company W.L.L.',
     brandClass: 'client-brand--trags',
     logo: '/brands/Trags-Header-Logo-3.png',
