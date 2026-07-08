@@ -17,7 +17,7 @@ export const FAQ_ITEMS = [
   {
     question: 'How do I request a quote?',
     answer:
-      'Contact our sales team by phone at +974 7740 9009 or email sales@indoventure-trading.com with your product requirements, quantities, and project details. We will respond with pricing and availability.',
+      'Contact our sales team by phone at +974 7740 9009 or email sales@indoventuretrading.com with your product requirements, quantities, and project details. We will respond with pricing and availability.',
   },
   {
     question: 'What industries do you serve?',
@@ -37,6 +37,6 @@ export const FAQ_ITEMS = [
   {
     question: 'Where is INDOVENTURE located?',
     answer:
-      'Our office is at Souq Umm Besher, Unit 3, Shop No. 12, Area 91, Street No. 295, Doha, Qatar. Visit our Contact page for phone, email, and direct sales support.',
+      'Our office is at Souq Umm Besher, Building 3, Shop No. 12, Area 91, Street No. 295, Doha, Qatar. Visit our Contact page for phone, email, and direct sales support.',
   },
 ]

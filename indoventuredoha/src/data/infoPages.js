@@ -91,7 +91,7 @@ export const INFO_PAGES = {
           'Contact our sales team with your order reference, product details, and reason for return. We will review the request and provide instructions for collection or return within Qatar.',
         ],
         list: [
-          'Email sales@indoventure-trading.com or call +974 7740 9009',
+          'Email sales@indoventuretrading.com or call +974 7740 9009',
           'Provide invoice or delivery note reference',
           'Include photos for damage or defect claims where helpful',
         ],
@@ -193,7 +193,7 @@ export const INFO_PAGES = {
       to: '/contact',
       secondary: {
         label: 'Email sales team',
-        href: 'mailto:sales@indoventure-trading.com?subject=Brochure%20Request',
+        href: 'mailto:sales@indoventuretrading.com?subject=Brochure%20Request',
       },
     },
   },

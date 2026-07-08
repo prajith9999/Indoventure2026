@@ -6,6 +6,16 @@
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
   "redirects": [
     {
+      "source": "/cgi-bin",
+      "destination": "https://www.indoventuretrading.com/",
+      "permanent": true
+    },
+    {
+      "source": "/cgi-bin/:path*",
+      "destination": "https://www.indoventuretrading.com/",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "has": [{ "type": "host", "value": "www.indoventure-trading.com" }],
       "destination": "https://www.indoventuretrading.com/:path*",

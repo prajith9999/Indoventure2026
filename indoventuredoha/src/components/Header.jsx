@@ -42,7 +42,7 @@ function Header() {
       <div className="header__utility">
         <div className="header__utility-inner">
           <a href="tel:+97477409009">+974 7740 9009</a>
-          <a href="mailto:sales@indoventure-trading.com">sales@indoventure-trading.com</a>
+          <a href="mailto:sales@indoventuretrading.com">sales@indoventuretrading.com</a>
         </div>
       </div>
 

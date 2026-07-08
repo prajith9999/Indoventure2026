@@ -27,7 +27,12 @@ export const SUPPLIER_BRANDS = [
     detail: 'Connection technology',
     wide: true,
   },
-  { name: 'Terasaki', logo: '/brands/terasaki.svg', detail: 'Circuit protection' },
+  {
+    name: 'Terasaki',
+    logo: '/brands/terasakki.png',
+    detail: 'Circuit protection',
+    wide: true,
+  },
   {
     name: 'Mitsubishi Electric',
     logo: '/brands/mitsubishi-electric.svg',
